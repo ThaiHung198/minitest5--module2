@@ -124,7 +124,7 @@ public class MaterialManager {
 // Phương thức hiển thị
     public void displayAllMaterials() {
         System.out.println("\n--- DANH SÁCH VẬT LIỆU ---");
-        System.out.println("|Loại |\t ID |\t Name |\t ManufacturingDate |\t Cost |\t Quantity |\t Amount |\t Real Money |\n");
+        System.out.println("|Loại |\t ID |\t Name |\t ManufacturingDate |\t Cost |\t Quantity |\t ExpiryDate |\t Amount |\t Real Money |\n");
         System.out.println("--------------------------------------------------------------------------------------------------");
         if (materials.isEmpty()) {
             System.out.println("Danh sách hiện đang trống.");

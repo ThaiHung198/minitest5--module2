@@ -93,7 +93,7 @@ public class Main {
             String id = scanner.nextLine();
             System.out.print("Nhập Tên: ");
             String name = scanner.nextLine();
-            System.out.print("Nhập Ngày sản xuất (YYYY-MM-DD): ");
+            System.out.print("Hạn sử dụng (DD-MM-YYYY): ");
             LocalDate manuDate = LocalDate.parse(scanner.nextLine());
             System.out.print("Nhập Giá (cost): ");
             int cost = Integer.parseInt(scanner.nextLine());
