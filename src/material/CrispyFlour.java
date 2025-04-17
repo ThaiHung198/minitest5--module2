@@ -20,7 +20,7 @@ public class CrispyFlour extends Material {
 
     @Override
     public LocalDate getExpiryDate() {
-        return getManufacturingDate().plusDays(1);
+        return getManufacturingDate().plusYears(1);
     }
 
 

@@ -162,7 +162,7 @@ public class Main {
             System.out.print("Giá mới [" + existingMaterial.getCost() + "]: ");
             String costStr = scanner.nextLine();
             int newCost = existingMaterial.getCost(); // Giữ giá cũ
-            if (!costStr.trim().isEmpty()) newCost = Integer.parseInt(costStr); // Parse nếu có nhập
+            if (!costStr.trim().isEmpty()) newCost = Integer.parseInt(costStr);
 
             // Tạo đối tượng tạm để chứa dữ liệu mới, ID giữ nguyên
             Material updatedData = null;
